@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc713685ade6309bb576551ed5114f82",
+    "content-hash": "6b9ff22f43866db9e2eaab2d78d9ffd0",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -4788,6 +4788,91 @@
                 "source": "https://github.com/magento/magento-zend-pdf/tree/1.16.4"
             },
             "time": "2024-12-18T14:59:28+00:00"
+        },
+        {
+            "name": "mageplaza/magento-2-chinese-language-pack",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-chinese-language-pack.git",
+                "reference": "d9229e145dfebeca6dcf85d3b24dfbad4a3b2a7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-chinese-language-pack/zipball/d9229e145dfebeca6dcf85d3b24dfbad4a3b2a7c",
+                "reference": "d9229e145dfebeca6dcf85d3b24dfbad4a3b2a7c",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.3.13"
+            },
+            "default-branch": true,
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza team",
+                    "email": "hi@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Leader"
+                }
+            ],
+            "description": "Chinese language package for Magento 2",
+            "homepage": "https://www.mageplaza.com",
+            "support": {
+                "issues": "https://github.com/mageplaza/magento-2-chinese-language-pack/issues",
+                "source": "https://github.com/mageplaza/magento-2-chinese-language-pack/tree/master"
+            },
+            "time": "2022-02-22T09:03:44+00:00"
+        },
+        {
+            "name": "mageplaza/module-core",
+            "version": "1.5.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/module-core.git",
+                "reference": "8ebf0f2fc27e16774664ad7b4195ca969c3fc9d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/8ebf0f2fc27e16774664ad7b4195ca969c3fc9d2",
+                "reference": "8ebf0f2fc27e16774664ad7b4195ca969c3fc9d2",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Mageplaza Core for Magento 2",
+            "support": {
+                "source": "https://github.com/mageplaza/module-core/tree/v1.5.12"
+            },
+            "time": "2025-03-04T07:01:17+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -14754,6 +14839,7 @@
     "minimum-stability": "beta",
     "stability-flags": {
         "magento/composer": 10,
+        "mageplaza/magento-2-chinese-language-pack": 20,
         "pdepend/pdepend": 20,
         "phpmd/phpmd": 20
     },
